@@ -1,0 +1,29 @@
+{
+    "name": "malangphp/internal",
+    "description": "MalangPHP Internal BoltCMS Extension",
+    "type": "bolt-extension",
+    "keywords": ["malangphp", "internal"],
+    "minimum-stability": "stable",
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prasetyo Wicaksono",
+            "email": "pras@openmailbox.org"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\MalangPHP\\Internal\\": ""
+        }
+    },
+
+    "extra": {
+        "bolt-assets": "assets"
+    }
+}
